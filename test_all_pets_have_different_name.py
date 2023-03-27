@@ -19,4 +19,4 @@ def test_all_pets_have_different_names(go_to_my_pets):
 
 
 # Запускаем python -m pytest -v --driver Chrome --driver-path
-# /Python/chromedriver.exe python/test_all_pets_have_different_name.py
+# /python/24_new/chromedriver.exe python/24_new/test_all_pets_have_different_name.py
