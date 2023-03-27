@@ -20,4 +20,4 @@ def test_no_duplicate_pets(go_to_my_pets):
     assert len(list_data_my_pets) == len(set_data_my_pets)  # сравнивнение
 
 # Запускаем python -m pytest -v --driver Chrome --driver-path
-# /python/chromedriver.exe python/test_no_duplicat_pets.py
+# /python/24_new/chromedriver.exe python/24_new/test_no_duplicat_pets.py
