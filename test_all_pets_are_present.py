@@ -22,4 +22,4 @@ def test_all_pets_are_present(go_to_my_pets):
    assert number == number_of_pets # количество питомцев из статистики 1* совпадает с количеством карточек питомцев 2*
 
 # Запускаем: python -m pytest -v --driver Chrome --driver-path
-# /Python/chromedriver.exe test_all_pets_are_present.py
+# /python/24_new/chromedriver.exe python/24_new/test_all_pets_are_present.py
